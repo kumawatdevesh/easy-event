@@ -1,0 +1,75 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.auth {
+    margin: 10rem auto;
+}
+.auth__form {
+    width: 45%;
+    margin: 0 auto;
+    padding: 7rem 0;
+    box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.name label {
+    flex-basis: 10rem;
+}
+.name input{
+    flex-basis: 60%;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.5rem;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.email label {
+    flex-basis: 10rem;
+}
+.email input{
+    flex-basis: 60%;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.5rem;
+}
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.password label {
+    flex-basis: 10rem;
+}
+.password input{
+    flex-basis: 60%;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.5rem;
+}
+.submit {
+    width: 10rem;
+    margin: 0 auto;
+}
+.submit input {
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 0.2s;
+}
+.submit input:hover {
+    color: #fff;
+    background-color: #000;
+}
+.auth__change {
+    display: block;
+    width: 6rem;
+    margin: 2rem auto;
+}

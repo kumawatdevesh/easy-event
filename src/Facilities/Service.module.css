@@ -1,0 +1,19 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.options a {
+    padding: 0 3rem 0.5rem 3rem;
+    text-decoration: none;
+    color: #000;
+}
+.services {
+    border-bottom: 0.2rem solid #fca311;
+    color: #fca311;
+}

@@ -1,0 +1,29 @@
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 50rem;
+    height: 30rem;
+    z-index: 10;
+    background-color: #fff;
+}
+.cancel {
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fca311;
+    border: none;
+    transition: all 0.2s;
+}
+.cancel:hover {
+    background-color: #000;
+    color: #fca311;
+}
+.msg {
+    margin: 5rem 2rem;
+}

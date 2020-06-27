@@ -1,0 +1,88 @@
+.bookings {
+    width: 50rem;
+    margin: 5rem auto;
+    padding: 2rem 1rem;
+    border: 0.2rem solid #000;
+    border-radius: 1rem;
+}
+.name {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name label {
+    text-transform: uppercase;
+    flex-basis: 10rem;
+}
+.name input {
+    flex: 1;
+    flex-basis: 20rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.5rem;
+}
+.activity {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activity label {
+    text-transform: uppercase;
+    flex-basis: 10rem;
+}
+.activity select {
+    flex: 1;
+    flex-basis: 20rem;
+    font-size: 1.6rem;
+    padding: 0.3rem 0.5rem;
+}
+.time {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time label {
+    text-transform: uppercase;
+    flex-basis: 10rem;
+}
+.time input {
+    flex: 1;
+    flex-basis: 20rem;
+    font-size: 1.6rem;
+    padding: 0.2rem 0.5rem;
+}
+.slot {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slot label {
+    text-transform: uppercase;
+    flex-basis: 10rem;
+}
+.slot select {
+    flex: 1;
+    flex-basis: 20rem;
+    font-size: 1.6rem;
+    padding: 0.2rem 0.5rem;
+}
+.book {
+    width: 7rem;
+    margin: 2rem auto;
+}
+.book input {
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    transition: all 0.2s;
+}
+.book input:hover {
+    background-color: #fca311;
+    color: #000;
+}
